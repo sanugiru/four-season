@@ -1,5 +1,7 @@
-# four-season
+# Four Season
 Four season simulator using Three.js 
+
+![](./static/demo/demo1.gif)
 
 How to run:
 
@@ -13,3 +15,6 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
+
+
+base model from : [41| Low Poly 🐑Sheepfold with three.js](https://codepen.io/yitliu/pen/gOaPxRX) by [@yitliu](https://codepen.io/yitliu)
