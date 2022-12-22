@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+    /* position: absolute; */
+    /* background: #c4fff5; */
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(240, 253, 255); */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+.navbar a {
+  float: center;
+  color: #333333;
+  text-align: center;
+  /* flex-basis: auto; */
+  padding: 40px 100px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+  
+.navbar a:hover {
+  /* background: #abdfff; */
+  color: rgb(180, 71, 71);
+}
+
+.navbar a.active {
+  /* background-color: #abdfff; */
+  color:  rgb(180, 71, 71);
+  font-weight: bold;
+}
+
+img {
+    position: absolute;
+    padding: 14px 16px;
+}
